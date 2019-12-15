@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		159DF33804F27501C8002779 /* Pods_CrossTaxiIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B66C85372A97ED1E12C5929 /* Pods_CrossTaxiIOS.framework */; };
+		53275B81239C5FDB00AEAE51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53275B80239C5FDB00AEAE51 /* AppDelegate.swift */; };
+		53275B83239C5FDB00AEAE51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53275B82239C5FDB00AEAE51 /* SceneDelegate.swift */; };
+		53275B85239C5FDB00AEAE51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53275B84239C5FDB00AEAE51 /* ViewController.swift */; };
+		53275B88239C5FDB00AEAE51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53275B86239C5FDB00AEAE51 /* Main.storyboard */; };
+		53275B8A239C5FE100AEAE51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53275B89239C5FE100AEAE51 /* Assets.xcassets */; };
+		53275B8D239C5FE100AEAE51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53275B8B239C5FE100AEAE51 /* LaunchScreen.storyboard */; };
+		53275B98239C5FE100AEAE51 /* CrossTaxiIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53275B97239C5FE100AEAE51 /* CrossTaxiIOSTests.swift */; };
+		53275BA3239C5FE100AEAE51 /* CrossTaxiIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53275BA2239C5FE100AEAE51 /* CrossTaxiIOSUITests.swift */; };
+		53275BC0239C736600AEAE51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53275BBF239C736600AEAE51 /* GoogleService-Info.plist */; };
+		53275BC2239C76CD00AEAE51 /* RegisterUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53275BC1239C76CD00AEAE51 /* RegisterUIController.swift */; };
+		53275BC4239C87E300AEAE51 /* HomeScreenAct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53275BC3239C87E300AEAE51 /* HomeScreenAct.swift */; };
+		534D0B5623A589F600926849 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D0B5523A589F600926849 /* LoginController.swift */; };
+		6D3FCE7493A18C3745DBF97C /* Pods_CrossTaxiIOS_CrossTaxiIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BFC62A1C4C1E6EF5DC8075 /* Pods_CrossTaxiIOS_CrossTaxiIOSUITests.framework */; };
+		8525ABF941C34B4930F60A86 /* Pods_CrossTaxiIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA259D72253ACA8A8F1C3CF /* Pods_CrossTaxiIOSTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53275B94239C5FE100AEAE51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53275B75239C5FDB00AEAE51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53275B7C239C5FDB00AEAE51;
+			remoteInfo = CrossTaxiIOS;
+		};
+		53275B9F239C5FE100AEAE51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53275B75239C5FDB00AEAE51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53275B7C239C5FDB00AEAE51;
+			remoteInfo = CrossTaxiIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B66C85372A97ED1E12C5929 /* Pods_CrossTaxiIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrossTaxiIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53275B7D239C5FDB00AEAE51 /* CrossTaxiIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossTaxiIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53275B80239C5FDB00AEAE51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53275B82239C5FDB00AEAE51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		53275B84239C5FDB00AEAE51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53275B87239C5FDB00AEAE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53275B89239C5FE100AEAE51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53275B8C239C5FE100AEAE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53275B8E239C5FE100AEAE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53275B93239C5FE100AEAE51 /* CrossTaxiIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossTaxiIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53275B97239C5FE100AEAE51 /* CrossTaxiIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossTaxiIOSTests.swift; sourceTree = "<group>"; };
+		53275B99239C5FE100AEAE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53275B9E239C5FE100AEAE51 /* CrossTaxiIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossTaxiIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53275BA2239C5FE100AEAE51 /* CrossTaxiIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossTaxiIOSUITests.swift; sourceTree = "<group>"; };
+		53275BA4239C5FE100AEAE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53275BB1239C618C00AEAE51 /* SharedCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedCode.framework; path = "../../SharedCode/build/xcode-frameworks/SharedCode.framework"; sourceTree = "<group>"; };
+		53275BBF239C736600AEAE51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53275BC1239C76CD00AEAE51 /* RegisterUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUIController.swift; sourceTree = "<group>"; };
+		53275BC3239C87E300AEAE51 /* HomeScreenAct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenAct.swift; sourceTree = "<group>"; };
+		534D0B5523A589F600926849 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		552ABD72A097868FB3612C90 /* Pods-CrossTaxiIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossTaxiIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CrossTaxiIOSTests/Pods-CrossTaxiIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5754580D5C4101410A180485 /* Pods-CrossTaxiIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossTaxiIOSTests.release.xcconfig"; path = "Target Support Files/Pods-CrossTaxiIOSTests/Pods-CrossTaxiIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		60BFC62A1C4C1E6EF5DC8075 /* Pods_CrossTaxiIOS_CrossTaxiIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrossTaxiIOS_CrossTaxiIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE1FB4BE3594775AC58700C /* Pods-CrossTaxiIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossTaxiIOS.release.xcconfig"; path = "Target Support Files/Pods-CrossTaxiIOS/Pods-CrossTaxiIOS.release.xcconfig"; sourceTree = "<group>"; };
+		8B1DD7BB67F54EE34D17BF88 /* Pods-CrossTaxiIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossTaxiIOS.debug.xcconfig"; path = "Target Support Files/Pods-CrossTaxiIOS/Pods-CrossTaxiIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A924B309F75E1ED80484927C /* Pods-CrossTaxiIOS-CrossTaxiIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossTaxiIOS-CrossTaxiIOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-CrossTaxiIOS-CrossTaxiIOSUITests/Pods-CrossTaxiIOS-CrossTaxiIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB8636C5D8C93FB87FF9B54F /* Pods-CrossTaxiIOS-CrossTaxiIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossTaxiIOS-CrossTaxiIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-CrossTaxiIOS-CrossTaxiIOSUITests/Pods-CrossTaxiIOS-CrossTaxiIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FFA259D72253ACA8A8F1C3CF /* Pods_CrossTaxiIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrossTaxiIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53275B7A239C5FDB00AEAE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159DF33804F27501C8002779 /* Pods_CrossTaxiIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53275B90239C5FE100AEAE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8525ABF941C34B4930F60A86 /* Pods_CrossTaxiIOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53275B9B239C5FE100AEAE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3FCE7493A18C3745DBF97C /* Pods_CrossTaxiIOS_CrossTaxiIOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53275B74239C5FDB00AEAE51 = {
+			isa = PBXGroup;
+			children = (
+				53275B7F239C5FDB00AEAE51 /* CrossTaxiIOS */,
+				53275B96239C5FE100AEAE51 /* CrossTaxiIOSTests */,
+				53275BA1239C5FE100AEAE51 /* CrossTaxiIOSUITests */,
+				53275B7E239C5FDB00AEAE51 /* Products */,
+				53275BB0239C618C00AEAE51 /* Frameworks */,
+				BA5BB22BED799A1C0CA9E4D5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		53275B7E239C5FDB00AEAE51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53275B7D239C5FDB00AEAE51 /* CrossTaxiIOS.app */,
+				53275B93239C5FE100AEAE51 /* CrossTaxiIOSTests.xctest */,
+				53275B9E239C5FE100AEAE51 /* CrossTaxiIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53275B7F239C5FDB00AEAE51 /* CrossTaxiIOS */ = {
+			isa = PBXGroup;
+			children = (
+				53275B80239C5FDB00AEAE51 /* AppDelegate.swift */,
+				53275B82239C5FDB00AEAE51 /* SceneDelegate.swift */,
+				53275B84239C5FDB00AEAE51 /* ViewController.swift */,
+				53275B86239C5FDB00AEAE51 /* Main.storyboard */,
+				53275B89239C5FE100AEAE51 /* Assets.xcassets */,
+				53275B8B239C5FE100AEAE51 /* LaunchScreen.storyboard */,
+				53275B8E239C5FE100AEAE51 /* Info.plist */,
+				53275BBF239C736600AEAE51 /* GoogleService-Info.plist */,
+				53275BC1239C76CD00AEAE51 /* RegisterUIController.swift */,
+				53275BC3239C87E300AEAE51 /* HomeScreenAct.swift */,
+				534D0B5523A589F600926849 /* LoginController.swift */,
+			);
+			path = CrossTaxiIOS;
+			sourceTree = "<group>";
+		};
+		53275B96239C5FE100AEAE51 /* CrossTaxiIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				53275B97239C5FE100AEAE51 /* CrossTaxiIOSTests.swift */,
+				53275B99239C5FE100AEAE51 /* Info.plist */,
+			);
+			path = CrossTaxiIOSTests;
+			sourceTree = "<group>";
+		};
+		53275BA1239C5FE100AEAE51 /* CrossTaxiIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53275BA2239C5FE100AEAE51 /* CrossTaxiIOSUITests.swift */,
+				53275BA4239C5FE100AEAE51 /* Info.plist */,
+			);
+			path = CrossTaxiIOSUITests;
+			sourceTree = "<group>";
+		};
+		53275BB0239C618C00AEAE51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53275BB1239C618C00AEAE51 /* SharedCode.framework */,
+				1B66C85372A97ED1E12C5929 /* Pods_CrossTaxiIOS.framework */,
+				60BFC62A1C4C1E6EF5DC8075 /* Pods_CrossTaxiIOS_CrossTaxiIOSUITests.framework */,
+				FFA259D72253ACA8A8F1C3CF /* Pods_CrossTaxiIOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA5BB22BED799A1C0CA9E4D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B1DD7BB67F54EE34D17BF88 /* Pods-CrossTaxiIOS.debug.xcconfig */,
+				6FE1FB4BE3594775AC58700C /* Pods-CrossTaxiIOS.release.xcconfig */,
+				A924B309F75E1ED80484927C /* Pods-CrossTaxiIOS-CrossTaxiIOSUITests.debug.xcconfig */,
+				EB8636C5D8C93FB87FF9B54F /* Pods-CrossTaxiIOS-CrossTaxiIOSUITests.release.xcconfig */,
+				552ABD72A097868FB3612C90 /* Pods-CrossTaxiIOSTests.debug.xcconfig */,
+				5754580D5C4101410A180485 /* Pods-CrossTaxiIOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53275B7C239C5FDB00AEAE51 /* CrossTaxiIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53275BA7239C5FE100AEAE51 /* Build configuration list for PBXNativeTarget "CrossTaxiIOS" */;
+			buildPhases = (
+				2AD500168678EBB78199D602 /* [CP] Check Pods Manifest.lock */,
+				53275B79239C5FDB00AEAE51 /* Sources */,
+				53275B7A239C5FDB00AEAE51 /* Frameworks */,
+				53275B7B239C5FDB00AEAE51 /* Resources */,
+				74932320207FC82DE638903D /* [CP] Embed Pods Frameworks */,
+				50A24DC71C94BAA0496635C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossTaxiIOS;
+			productName = CrossTaxiIOS;
+			productReference = 53275B7D239C5FDB00AEAE51 /* CrossTaxiIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53275B92239C5FE100AEAE51 /* CrossTaxiIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53275BAA239C5FE100AEAE51 /* Build configuration list for PBXNativeTarget "CrossTaxiIOSTests" */;
+			buildPhases = (
+				11464FD8D25542571F47F3B3 /* [CP] Check Pods Manifest.lock */,
+				53275B8F239C5FE100AEAE51 /* Sources */,
+				53275B90239C5FE100AEAE51 /* Frameworks */,
+				53275B91239C5FE100AEAE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53275B95239C5FE100AEAE51 /* PBXTargetDependency */,
+			);
+			name = CrossTaxiIOSTests;
+			productName = CrossTaxiIOSTests;
+			productReference = 53275B93239C5FE100AEAE51 /* CrossTaxiIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53275B9D239C5FE100AEAE51 /* CrossTaxiIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53275BAD239C5FE100AEAE51 /* Build configuration list for PBXNativeTarget "CrossTaxiIOSUITests" */;
+			buildPhases = (
+				64BF811E7ABE4945637A6076 /* [CP] Check Pods Manifest.lock */,
+				53275B9A239C5FE100AEAE51 /* Sources */,
+				53275B9B239C5FE100AEAE51 /* Frameworks */,
+				53275B9C239C5FE100AEAE51 /* Resources */,
+				E09F4593F1F54A30866F2F5C /* [CP] Embed Pods Frameworks */,
+				DC4E1EA3C7919545F5B46056 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53275BA0239C5FE100AEAE51 /* PBXTargetDependency */,
+			);
+			name = CrossTaxiIOSUITests;
+			productName = CrossTaxiIOSUITests;
+			productReference = 53275B9E239C5FE100AEAE51 /* CrossTaxiIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53275B75239C5FDB00AEAE51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = madbulsa;
+				TargetAttributes = {
+					53275B7C239C5FDB00AEAE51 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					53275B92239C5FE100AEAE51 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 53275B7C239C5FDB00AEAE51;
+					};
+					53275B9D239C5FE100AEAE51 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 53275B7C239C5FDB00AEAE51;
+					};
+				};
+			};
+			buildConfigurationList = 53275B78239C5FDB00AEAE51 /* Build configuration list for PBXProject "CrossTaxiIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53275B74239C5FDB00AEAE51;
+			productRefGroup = 53275B7E239C5FDB00AEAE51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53275B7C239C5FDB00AEAE51 /* CrossTaxiIOS */,
+				53275B92239C5FE100AEAE51 /* CrossTaxiIOSTests */,
+				53275B9D239C5FE100AEAE51 /* CrossTaxiIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53275B7B239C5FDB00AEAE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53275B8D239C5FE100AEAE51 /* LaunchScreen.storyboard in Resources */,
+				53275B8A239C5FE100AEAE51 /* Assets.xcassets in Resources */,
+				53275B88239C5FDB00AEAE51 /* Main.storyboard in Resources */,
+				53275BC0239C736600AEAE51 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53275B91239C5FE100AEAE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53275B9C239C5FE100AEAE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11464FD8D25542571F47F3B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrossTaxiIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AD500168678EBB78199D602 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrossTaxiIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50A24DC71C94BAA0496635C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrossTaxiIOS/Pods-CrossTaxiIOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrossTaxiIOS/Pods-CrossTaxiIOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrossTaxiIOS/Pods-CrossTaxiIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64BF811E7ABE4945637A6076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrossTaxiIOS-CrossTaxiIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74932320207FC82DE638903D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrossTaxiIOS/Pods-CrossTaxiIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrossTaxiIOS/Pods-CrossTaxiIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrossTaxiIOS/Pods-CrossTaxiIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4E1EA3C7919545F5B46056 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrossTaxiIOS-CrossTaxiIOSUITests/Pods-CrossTaxiIOS-CrossTaxiIOSUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrossTaxiIOS-CrossTaxiIOSUITests/Pods-CrossTaxiIOS-CrossTaxiIOSUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrossTaxiIOS-CrossTaxiIOSUITests/Pods-CrossTaxiIOS-CrossTaxiIOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09F4593F1F54A30866F2F5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrossTaxiIOS-CrossTaxiIOSUITests/Pods-CrossTaxiIOS-CrossTaxiIOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrossTaxiIOS-CrossTaxiIOSUITests/Pods-CrossTaxiIOS-CrossTaxiIOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrossTaxiIOS-CrossTaxiIOSUITests/Pods-CrossTaxiIOS-CrossTaxiIOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53275B79239C5FDB00AEAE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53275BC2239C76CD00AEAE51 /* RegisterUIController.swift in Sources */,
+				534D0B5623A589F600926849 /* LoginController.swift in Sources */,
+				53275B85239C5FDB00AEAE51 /* ViewController.swift in Sources */,
+				53275B81239C5FDB00AEAE51 /* AppDelegate.swift in Sources */,
+				53275BC4239C87E300AEAE51 /* HomeScreenAct.swift in Sources */,
+				53275B83239C5FDB00AEAE51 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53275B8F239C5FE100AEAE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53275B98239C5FE100AEAE51 /* CrossTaxiIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53275B9A239C5FE100AEAE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53275BA3239C5FE100AEAE51 /* CrossTaxiIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53275B95239C5FE100AEAE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53275B7C239C5FDB00AEAE51 /* CrossTaxiIOS */;
+			targetProxy = 53275B94239C5FE100AEAE51 /* PBXContainerItemProxy */;
+		};
+		53275BA0239C5FE100AEAE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53275B7C239C5FDB00AEAE51 /* CrossTaxiIOS */;
+			targetProxy = 53275B9F239C5FE100AEAE51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53275B86239C5FDB00AEAE51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53275B87239C5FDB00AEAE51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53275B8B239C5FE100AEAE51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53275B8C239C5FE100AEAE51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53275BA5239C5FE100AEAE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../SharedCode/build/xcode-frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53275BA6239C5FE100AEAE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../SharedCode/build/xcode-frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53275BA8239C5FE100AEAE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1DD7BB67F54EE34D17BF88 /* Pods-CrossTaxiIOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/GooglePlaces/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrossTaxiIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salam.crosstaxi.CrossTaxiIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53275BA9239C5FE100AEAE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE1FB4BE3594775AC58700C /* Pods-CrossTaxiIOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/GooglePlaces/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrossTaxiIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salam.crosstaxi.CrossTaxiIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53275BAB239C5FE100AEAE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552ABD72A097868FB3612C90 /* Pods-CrossTaxiIOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossTaxiIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salam.crosstaxi.CrossTaxiIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossTaxiIOS.app/CrossTaxiIOS";
+			};
+			name = Debug;
+		};
+		53275BAC239C5FE100AEAE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5754580D5C4101410A180485 /* Pods-CrossTaxiIOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossTaxiIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salam.crosstaxi.CrossTaxiIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossTaxiIOS.app/CrossTaxiIOS";
+			};
+			name = Release;
+		};
+		53275BAE239C5FE100AEAE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A924B309F75E1ED80484927C /* Pods-CrossTaxiIOS-CrossTaxiIOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossTaxiIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salam.crosstaxi.CrossTaxiIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossTaxiIOS;
+			};
+			name = Debug;
+		};
+		53275BAF239C5FE100AEAE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8636C5D8C93FB87FF9B54F /* Pods-CrossTaxiIOS-CrossTaxiIOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossTaxiIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salam.crosstaxi.CrossTaxiIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossTaxiIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53275B78239C5FDB00AEAE51 /* Build configuration list for PBXProject "CrossTaxiIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53275BA5239C5FE100AEAE51 /* Debug */,
+				53275BA6239C5FE100AEAE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53275BA7239C5FE100AEAE51 /* Build configuration list for PBXNativeTarget "CrossTaxiIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53275BA8239C5FE100AEAE51 /* Debug */,
+				53275BA9239C5FE100AEAE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53275BAA239C5FE100AEAE51 /* Build configuration list for PBXNativeTarget "CrossTaxiIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53275BAB239C5FE100AEAE51 /* Debug */,
+				53275BAC239C5FE100AEAE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53275BAD239C5FE100AEAE51 /* Build configuration list for PBXNativeTarget "CrossTaxiIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53275BAE239C5FE100AEAE51 /* Debug */,
+				53275BAF239C5FE100AEAE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53275B75239C5FDB00AEAE51 /* Project object */;
+}

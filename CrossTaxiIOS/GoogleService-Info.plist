@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>202238544178-ikaaadrm67ct4r3dp1ldfb9g22i0kgkj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.202238544178-ikaaadrm67ct4r3dp1ldfb9g22i0kgkj</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>202238544178-cj0urka3ve2sbi29kit6n2uq6fammh5m.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCRuCBEPU5fOOpxlLklm69WIrXMvoQD7SE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>202238544178</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.salam.crosstaxi.CrossTaxiIOS</string>
+	<key>PROJECT_ID</key>
+	<string>droplettest-cba19</string>
+	<key>STORAGE_BUCKET</key>
+	<string>droplettest-cba19.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:202238544178:ios:abfc9ac4ff8e0946fbaf2b</string>
+	<key>DATABASE_URL</key>
+	<string>https://droplettest-cba19.firebaseio.com</string>
+</dict>
+</plist>
