@@ -20,6 +20,7 @@
 		53275BC2239C76CD00AEAE51 /* RegisterUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53275BC1239C76CD00AEAE51 /* RegisterUIController.swift */; };
 		53275BC4239C87E300AEAE51 /* HomeScreenAct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53275BC3239C87E300AEAE51 /* HomeScreenAct.swift */; };
 		534D0B5623A589F600926849 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D0B5523A589F600926849 /* LoginController.swift */; };
+		534D0B5E23A668A700926849 /* AutoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D0B5D23A668A700926849 /* AutoLocation.swift */; };
 		6D3FCE7493A18C3745DBF97C /* Pods_CrossTaxiIOS_CrossTaxiIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BFC62A1C4C1E6EF5DC8075 /* Pods_CrossTaxiIOS_CrossTaxiIOSUITests.framework */; };
 		8525ABF941C34B4930F60A86 /* Pods_CrossTaxiIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA259D72253ACA8A8F1C3CF /* Pods_CrossTaxiIOSTests.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		53275BC1239C76CD00AEAE51 /* RegisterUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUIController.swift; sourceTree = "<group>"; };
 		53275BC3239C87E300AEAE51 /* HomeScreenAct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenAct.swift; sourceTree = "<group>"; };
 		534D0B5523A589F600926849 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		534D0B5D23A668A700926849 /* AutoLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLocation.swift; sourceTree = "<group>"; };
 		552ABD72A097868FB3612C90 /* Pods-CrossTaxiIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossTaxiIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CrossTaxiIOSTests/Pods-CrossTaxiIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5754580D5C4101410A180485 /* Pods-CrossTaxiIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossTaxiIOSTests.release.xcconfig"; path = "Target Support Files/Pods-CrossTaxiIOSTests/Pods-CrossTaxiIOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		60BFC62A1C4C1E6EF5DC8075 /* Pods_CrossTaxiIOS_CrossTaxiIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrossTaxiIOS_CrossTaxiIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +127,7 @@
 		53275B7F239C5FDB00AEAE51 /* CrossTaxiIOS */ = {
 			isa = PBXGroup;
 			children = (
+				534D0B5C23A6688000926849 /* Location */,
 				53275B80239C5FDB00AEAE51 /* AppDelegate.swift */,
 				53275B82239C5FDB00AEAE51 /* SceneDelegate.swift */,
 				53275B84239C5FDB00AEAE51 /* ViewController.swift */,
@@ -167,6 +170,14 @@
 				FFA259D72253ACA8A8F1C3CF /* Pods_CrossTaxiIOSTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		534D0B5C23A6688000926849 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				534D0B5D23A668A700926849 /* AutoLocation.swift */,
+			);
+			path = Location;
 			sourceTree = "<group>";
 		};
 		BA5BB22BED799A1C0CA9E4D5 /* Pods */ = {
@@ -458,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534D0B5E23A668A700926849 /* AutoLocation.swift in Sources */,
 				53275BC2239C76CD00AEAE51 /* RegisterUIController.swift in Sources */,
 				534D0B5623A589F600926849 /* LoginController.swift in Sources */,
 				53275B85239C5FDB00AEAE51 /* ViewController.swift in Sources */,

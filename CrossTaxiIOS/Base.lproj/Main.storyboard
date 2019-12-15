@@ -213,6 +213,9 @@
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="titleShadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="50T-4t-gWy" kind="show" id="8Pe-cX-woe"/>
+                                        </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="To Address" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7UF-n1-jRm">
                                         <rect key="frame" x="8" y="58" width="398" height="34"/>
@@ -236,33 +239,46 @@
             </objects>
             <point key="canvasLocation" x="2985.507246376812" y="139.95535714285714"/>
         </scene>
-        <!--Table View Controller-->
-        <scene sceneID="Y3A-Uz-Z05">
+        <!--Auto Location-->
+        <scene sceneID="5aO-hV-rsj">
             <objects>
-                <tableViewController id="rFD-Bq-vxa" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Lkc-4q-Hdr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <tableViewController id="50T-4t-gWy" customClass="AutoLocation" customModule="CrossTaxiIOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Yx8-BQ-NKs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <textField key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="b36-jk-yiJ">
+                            <rect key="frame" x="0.0" y="99.5" width="414" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <action selector="startSearch:" destination="50T-4t-gWy" eventType="touchUpInside" id="Ju1-Pd-uff"/>
+                            </connections>
+                        </textField>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="h1R-N0-wYI">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ghv-fq-tjf">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="h1R-N0-wYI" id="3X9-Px-QuC">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ghv-fq-tjf" id="pll-2V-y2Z">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="rFD-Bq-vxa" id="r9z-wd-PZA"/>
-                            <outlet property="delegate" destination="rFD-Bq-vxa" id="jQo-rt-mR7"/>
+                            <outlet property="dataSource" destination="50T-4t-gWy" id="lcR-XL-5sh"/>
+                            <outlet property="delegate" destination="50T-4t-gWy" id="HdG-1O-Uda"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="XjE-sv-F2s"/>
+                    <connections>
+                        <outlet property="searchLoc" destination="b36-jk-yiJ" id="SD1-T9-uFN"/>
+                    </connections>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YHW-V7-qXr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DCU-BW-L1H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4176" y="108"/>
+            <point key="canvasLocation" x="4237.68115942029" y="77.678571428571431"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

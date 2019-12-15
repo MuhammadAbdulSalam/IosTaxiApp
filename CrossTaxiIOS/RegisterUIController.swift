@@ -26,15 +26,6 @@ class RegisterUIController: UIViewController{
   let rootDBref = Database.database().reference()
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        do
-        {
-             try Auth.auth().signOut()
-        }
-        catch let error as NSError
-        {
-            print (error.localizedDescription)
-        }
         GIDSignIn.sharedInstance()?.presentingViewController = self
         //GIDSignIn.sharedInstance().signIn()
     }
@@ -52,24 +43,16 @@ class RegisterUIController: UIViewController{
         
     
         createUser(email: emailText, password: passwordText)
+        sleep(4)
         SignInFirebas(email: emailText, password: passwordText)
        
-        sleep(4)
+        
         
         let userID = Auth.auth().currentUser?.uid
-      
-        
-        
-        
         //(self.rootDBref.child("Users") as AnyObject).child(userID ?? "nill").setValue(["phoneTxt": phoneTxt])
         self.rootDBref.child("Users").child(userID!).setValue([ "firstName": firstName,"lastName" : lastName ,"dob" : dob, "email" : emailText, "phoneNumber" : phoneTxt])
         
            }
-    
-    
-    
-    
-    
            
     //Create Auth for Registration with Email and Password
     func createUser(email: String, password: String, _ callback: ((Error?) -> ())? = nil){

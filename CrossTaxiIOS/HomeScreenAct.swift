@@ -44,4 +44,6 @@ class HomeScreenAct : UIViewController, CLLocationManagerDelegate {
         self.locationManager.stopUpdatingLocation()
     }
     
+    
+    
 }
